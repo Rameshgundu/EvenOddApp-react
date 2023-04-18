@@ -1,0 +1,34 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 100vh;
+  background-size: cover;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+  font-family: robot0;
+  font-weight: bold;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  font-family: roboto;
+}
+button {
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
